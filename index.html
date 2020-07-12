@@ -8,7 +8,7 @@
   
   <title>Frontend Mentor | Single Price Grid Component</title>
   <style>
-   @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
    html
    {
     font-family: 'Karla', sans-serif;
@@ -22,7 +22,7 @@
     width: 100vw;
    }
    .container {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 1rem 2rem rgba(152, 166, 189, .2);
     margin: 4.5rem auto;
@@ -72,6 +72,7 @@
     font-weight: 400;
     line-height: 1.5rem;
     opacity: .8;
+    font-size: .9rem;
    }
    #price {
     font-weight: 700;
@@ -94,8 +95,11 @@
       justify-content: center;
       align-items: center;
     }
-    h2, h3 {
+    h2, h3, .join p {
       margin-top: 0;
+    }
+    .join h3 {
+      margin-bottom: 0.5rem;
     }
     .container {
       width: 44%;
@@ -111,11 +115,11 @@
     }
     .subscribe {
       grid-area: subscribe;
-      border-radius: 0 0 0 5px;
+      border-radius: 0 0 0 10px;
     }
     .why-us {
       grid-area: why-us;
-      border-radius: 0 0 5px 0;
+      border-radius: 0 0 10px 0;
     }
     .join {
       grid-area: join;
